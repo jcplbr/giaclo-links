@@ -11,12 +11,11 @@ export default function Form() {
       onSubmit={handleSubmit}
       className="flex flex-col gap-4 md:gap-6 text-[15px] md:text-lg leading-5 md:leading-7 font-medium"
     >
-      <p>
+      <p className="max-w-[37ch]">
         Join our community for free{" "}
         <span className="opacity-50">
-          to get exclusive early
-          <br /> access for future drops, important updates, and
-          <br /> behind-the-scenes insights.
+          to get exclusive early access for future drops, important updates, and
+          behind-the-scenes insights.
         </span>
       </p>
 
@@ -24,7 +23,7 @@ export default function Form() {
         <input
           type="email"
           placeholder="Enter your email"
-          className="max-w-60 md:max-w-80 w-full h-12 md:h-14 px-5 md:px-6 rounded-full bg-[#E8E8E8] placeholder:text-foreground/50"
+          className="max-w-60 md:max-w-72 w-full h-12 md:h-14 px-5 md:px-6 rounded-full bg-[#E8E8E8] placeholder:text-foreground/50"
         />
         <button
           type="submit"

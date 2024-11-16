@@ -18,7 +18,7 @@ export default function Home() {
 
 function MobileLayout() {
   return (
-    <main className="flex flex-col justify-between h-screen p-6 overflow-hidden">
+    <main className="flex flex-col justify-between min-h-screen p-6 overflow-hidden">
       <Header />
 
       <div className="flex flex-col gap-16">
@@ -35,7 +35,7 @@ function MobileLayout() {
 
 function DesktopLayout() {
   return (
-    <main className="flex flex-col justify-between h-screen px-[4.5rem] py-12 overflow-hidden">
+    <main className="flex flex-col justify-between min-h-screen px-[4.5rem] py-12 overflow-hidden">
       <div className="flex items-center justify-between">
         <Header />
         <Form />
