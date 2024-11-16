@@ -1,4 +1,5 @@
 import "@/styles/globals.css"
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${neueMontreal.className} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   )
