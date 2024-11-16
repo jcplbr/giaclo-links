@@ -9,8 +9,8 @@
 }
 
 *::selection {
-  background: var(--primary);
   color: var(--background);
+  background: var(--primary);
 }
 
 body {
