@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${neueMontreal.className} antialiased`}>
+      <body className={`${neueMontreal.className} antialiased h-screen`}>
         {children}
         <Analytics />
       </body>
