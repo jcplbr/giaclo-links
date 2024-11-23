@@ -23,7 +23,7 @@ export default function Links() {
   ]
 
   return (
-    <div className="flex flex-col gap-2 md:gap-6">
+    <div className="flex flex-col gap-2 sm:gap-4 lg:gap-6">
       {links.map((link) => {
         if (link.active) {
           return (
@@ -32,7 +32,7 @@ export default function Links() {
               href={link.href}
               target="_blank"
               tabIndex={0}
-              className="text-xl md:text-[3.5rem] md:leading-[3.5rem] font-medium cursor-ne-resize"
+              className="text-xl sm:text-3xl lg:text-[3.5rem] lg:leading-[3.5rem] font-medium cursor-ne-resize"
             >
               {link.label}
             </Link>
@@ -41,10 +41,10 @@ export default function Links() {
         return (
           <div
             key={link.label}
-            className="flex items-center justify-between text-xl md:text-[3.5rem] md:leading-[3.5rem] font-medium opacity-50 cursor-not-allowed"
+            className="flex items-center justify-between text-xl sm:text-3xl lg:text-[3.5rem] lg:leading-[3.5rem] font-medium opacity-50 cursor-not-allowed"
           >
             {link.label}
-            <div className="flex items-center justify-center h-8 md:h-12 px-3 md:px-5 border-[1.5px] border-foreground rounded-full text-[15px] md:text-xl font-medium select-none">
+            <div className="flex items-center justify-center h-8 sm:h-10 lg:h-12 px-3 sm:px-4 lg:px-5 border-[1.5px] border-foreground rounded-full text-[15px] sm:text-lg lg:text-xl font-medium select-none">
               Coming Soon
             </div>
           </div>

@@ -10,9 +10,9 @@ export default function Header() {
         height={64}
         draggable={false}
         referrerPolicy="no-referrer"
-        className="rounded-full md:w-[4.5rem] md:h-[4.5rem] select-none pointer-events-none"
+        className="rounded-full lg:w-[4.5rem] lg:h-[4.5rem] select-none pointer-events-none"
       />
-      <div className="text-xl md:text-2xl">
+      <div className="text-xl lg:text-2xl">
         <h1 className="font-bold">
           GIACLO<span className="font-medium">™</span>
         </h1>

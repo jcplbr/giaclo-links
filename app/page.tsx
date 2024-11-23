@@ -6,10 +6,10 @@ import Links from "@/components/Links"
 export default function Home() {
   return (
     <>
-      <div className="block h-full md:hidden">
+      <div className="block h-full sm:hidden">
         <MobileLayout />
       </div>
-      <div className="hidden h-full md:block">
+      <div className="hidden h-full sm:block">
         <DesktopLayout />
       </div>
     </>
@@ -35,7 +35,7 @@ function MobileLayout() {
 
 function DesktopLayout() {
   return (
-    <main className="flex flex-col justify-between h-full px-[4.5rem] py-12 overflow-hidden">
+    <main className="flex flex-col justify-between h-full p-6 lg:px-[4.5rem] lg:py-12 overflow-hidden">
       <div className="flex items-center justify-between">
         <Header />
         <Form />
