@@ -14,7 +14,7 @@ export default function Header() {
       />
       <div className="text-xl lg:text-2xl">
         <h1 className="font-bold">
-          GIACLO<span className="font-medium">™</span>
+          GIACLO
         </h1>
         <p className="font-medium opacity-50">Feel Good, Do Better.</p>
       </div>
